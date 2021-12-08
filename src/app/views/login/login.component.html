@@ -1,0 +1,42 @@
+<link
+  href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+  rel="stylesheet"
+  id="bootstrap-css"
+/>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+      <img
+        src="https://ara-tech.es/wp-content/uploads/2021/09/logoaniversarioblanco.png"
+        id="icon"
+        alt="User Icon"
+      />
+    </div>
+
+    <!-- Login Form -->
+    <form [formGroup]="loginForm" (ngSubmit)="onLogin(loginForm.value)">
+      <input
+        type="text"
+        id="email"
+        class="fadeIn second"
+        formControlName="email"
+        placeholder="Email"
+      />
+      <input
+        type="password"
+        id="password"
+        class="fadeIn third"
+        formControlName="password"
+        placeholder="Password"
+      />
+      <input type="submit" class="fadeIn fourth" value="Log In" />
+    </form>
+  </div>
+</div>
