@@ -1,5 +1,5 @@
 <h1 align="center">Aplicación de prueba Angular</h1>
-<p align="center"><img src="https://viterbit-careers-site.cdn.viterb.it/ozpi8csg7sp/603e5ecef0a9c797521604.png"/></p>
+<p align="center"><img src="https://viterbit-careers-site.cdn.viterb.it/ozpi8csg7sp/603e5ecef0a9c797521604.png" width="50px"/></p>
 
 ## Tabla de contenidos:
 
