@@ -13,7 +13,6 @@ export class DashboardComponent implements OnInit {
   users: listI | undefined;
   u: any[] = [];
   totalPages: any;
-
   constructor(private api: ApiService, private router: Router) {}
 
   ngOnInit(): void {
@@ -22,7 +21,7 @@ export class DashboardComponent implements OnInit {
     this.api.getAllList(1).subscribe((data) => {
       this.users = data;
       this.u = this.users.data;
-      this.totalPages = this.users.total_page;
+      this.totalPages = data.total_pages;
     });
   }
 
@@ -31,7 +30,7 @@ export class DashboardComponent implements OnInit {
   }
 
   changePage(action: any, currentPage: any) {
-    if (action == 'next') {
+    if (action == 'next' && currentPage < this.totalPages) {
       this.api.getAllList(currentPage + 1).subscribe((data) => {
         this.users = data;
         this.u = this.users.data;

@@ -2,7 +2,7 @@ export interface listI {
   page: number;
   per_page: number;
   total: number;
-  total_page: number;
+  total_pages: number;
   data: [
     {
       id: number;
