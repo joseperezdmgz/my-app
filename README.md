@@ -56,7 +56,7 @@ $ sudo npm install -g @angular/cli
 $ ng version
 ```
 
-- He visto que la versión de node que tenía instalada no era compatible con Angular y la cambié con nvm:
+- Dado que la versión de node que tenía instalada no era compatible con Angular, la cambié con nvm:
 
 ```bash
 $ sudo nvm install v16.10
