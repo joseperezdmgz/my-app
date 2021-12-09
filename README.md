@@ -30,7 +30,7 @@ Esto es una prueba realizada en Angular. Tenemos la información en una Api, nos
   $ eve.holt@reqres.in
   ```
 
-  password:
+   password:
 
 ```bash
   $ cityslicka
