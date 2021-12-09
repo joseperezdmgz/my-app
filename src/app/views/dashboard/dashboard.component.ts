@@ -12,6 +12,7 @@ import { listI } from '../../models/list.interface';
 export class DashboardComponent implements OnInit {
   users: listI | undefined;
   u: any[] = [];
+  totalPages: any;
 
   constructor(private api: ApiService, private router: Router) {}
 
@@ -21,6 +22,7 @@ export class DashboardComponent implements OnInit {
     this.api.getAllList(1).subscribe((data) => {
       this.users = data;
       this.u = this.users.data;
+      this.totalPages = this.users.total_page;
     });
   }
 
@@ -30,7 +32,6 @@ export class DashboardComponent implements OnInit {
 
   changePage(action: any, currentPage: any) {
     if (action == 'next') {
-      console.log(2);
       this.api.getAllList(currentPage + 1).subscribe((data) => {
         this.users = data;
         this.u = this.users.data;
@@ -42,6 +43,7 @@ export class DashboardComponent implements OnInit {
         this.u = this.users.data;
       });
     }
+
     return 1;
   }
 }

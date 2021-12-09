@@ -1,13 +1,15 @@
 <app-header> </app-header>
 <div class="wrapper">
   <div class="card-container" *ngFor="let user of u">
-    <div class="card" style="width: 18rem">
-      <img src="{{ user.avatar }}" class="card-img-top" alt="avatar" />
+    <div class="card" style="width: 20rem">
+      <div class="card-img-top">
+        <img src="{{ user.avatar }}" alt="avatar" />
+      </div>
       <div class="card-body">
-        <h5 class="card-title">{{ user.id }}</h5>
-        <p class="card-text">{{ user.first_name }} {{ user.last_name }}</p>
+        <p class="card-title">{{ user.id }}</p>
+        <h5 class="card-text">{{ user.first_name }} {{ user.last_name }}</h5>
 
-        <p class="card-text">{{ user.email }}</p>
+        <p class="card-text">✉️ {{ user.email }}</p>
       </div>
     </div>
   </div>

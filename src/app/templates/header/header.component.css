@@ -1,15 +1,16 @@
 .navbar {
-  background-color: black;
+  background-color: #56baed;
   border-radius: 0px;
   display: flex;
   align-items: center;
   padding: 0 10px 0 0;
 }
-.navbar h1 {
+.navbar img {
   margin-left: 15px;
 }
 .navbar button {
-  height: 50px;
+  height: 30px;
   margin-left: auto;
   color: black;
+  border-radius: 100px;
 }

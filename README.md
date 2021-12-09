@@ -1,5 +1,5 @@
 <h1 align="center">Aplicación de prueba Angular</h1>
-<p align="center"><img src="https://viterbit-careers-site.cdn.viterb.it/ozpi8csg7sp/603e5ecef0a9c797521604.png"/></p>
+<p align="center"><img src="https://viterbit-careers-site.cdn.viterb.it/ozpi8csg7sp/603e5ecef0a9c797521604.png" width="50px"/></p>
 
 ## Tabla de contenidos:
 
@@ -44,13 +44,13 @@ Esto es una prueba realizada en Angular. Tenemos la información en una Api, nos
 
 ---
 
-- Instalar Angular con el comando:
+- Instalamos Angular con el comando:
 
 ```bash
 $ sudo npm install -g @angular/cli
 ```
 
-- Al comprobar la instalación con el comando:
+- Comprobamos la instalación con el siguiente comando:
 
 ```bash
 $ ng version
@@ -62,13 +62,13 @@ $ ng version
 $ sudo nvm install v16.10
 ```
 
-- Una vez hecho estos pasos, he usado el comando:
+- Una vez hecho estos pasos, he usado el comando para crear un nuevo proyecto con el nombre por defecto "my-app":
 
 ```bash
 $ ng new my-app
 ```
 
-- A la pregunta que hace la acepto para que instale un fichero predeterminado y elegimos la opción css.
+- A la pregunta que hace, la aceptamos para que instale un fichero predeterminado y elegimos la opción css.
 
 - Arrancamos el servidor con el comando:
 
@@ -76,8 +76,10 @@ $ ng new my-app
 $ ng serve
 ```
 
+- En este punto ya debería estar funcionando. Ahora nos dirigimos al siguiente [enlace](http://localhost:4200/) y mostrará nuestra web.
+
 ## Información adicional
 
 ---
 
-He usado boostrap para hacer las pantallas de "login" y las tarjetas de "dashboard".
+Para hacer las tarjetas de "login" y "dashboard" se ha empleado Boostrap.
