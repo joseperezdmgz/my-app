@@ -1,5 +1,4 @@
 <h1 align="center">Aplicación de prueba Angular</h1>
-<p align="center"><img src="https://viterbit-careers-site.cdn.viterb.it/ozpi8csg7sp/603e5ecef0a9c797521604.png" width="50px"/></p>
 
 ## Tabla de contenidos:
 
@@ -27,13 +26,13 @@ Esto es una prueba realizada en Angular. Tenemos la información en una Api, nos
    email:
 
   ```bash
-  $ eve.holt@reqres.in
+   eve.holt@reqres.in
   ```
 
-   password:
+  password:
 
 ```bash
-  $ cityslicka
+   cityslicka
 ```
 
 - Una vez dentro podemos ver la información de los usuarios y movernos libremente por las páginas.
@@ -47,25 +46,25 @@ Esto es una prueba realizada en Angular. Tenemos la información en una Api, nos
 - Instalamos Angular con el comando:
 
 ```bash
-$ sudo npm install -g @angular/cli
+ sudo npm install -g @angular/cli
 ```
 
 - Comprobamos la instalación con el siguiente comando:
 
 ```bash
-$ ng version
+ ng version
 ```
 
 - Dado que la versión de node que tenía instalada no era compatible con Angular, la cambié con nvm:
 
 ```bash
-$ sudo nvm install v16.10
+ sudo nvm install v16.10
 ```
 
 - Una vez hecho estos pasos, he usado el comando para crear un nuevo proyecto con el nombre por defecto "my-app":
 
 ```bash
-$ ng new my-app
+ ng new my-app
 ```
 
 - A la pregunta que hace, la aceptamos para que instale un fichero predeterminado y elegimos la opción css.
@@ -73,7 +72,7 @@ $ ng new my-app
 - Arrancamos el servidor con el comando:
 
 ```bash
-$ ng serve
+ ng serve
 ```
 
 - En este punto ya debería estar funcionando. Ahora nos dirigimos al siguiente [enlace](http://localhost:4200/) y mostrará nuestra web.
